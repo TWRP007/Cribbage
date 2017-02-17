@@ -135,9 +135,6 @@ namespace Cribbage
             int CardsDiscard = 0;
             string DiscardCard;
 
-
-
-
             switch (NoOfPlayers)
             {
                 case 2:
