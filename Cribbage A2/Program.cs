@@ -195,10 +195,10 @@ namespace Cribbage
                     }
                 }
 
-                //Play the Play
+            //Play the Play
 
-                int CurrentPlayer = NextPlayer(Dealer, NoOfPlayers);
-                string[,] LiveHands = Hands; //Need to have the same hand for "dab down"
+            int CurrentPlayer = NextPlayer(Dealer, NoOfPlayers);
+            string[,] LiveHands = Hands; //Need to have the same hand for "dab down"
             while (GameFinish == false) //here prob
             {
                 int ScoreRound = 0;
