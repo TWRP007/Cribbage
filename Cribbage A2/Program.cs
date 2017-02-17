@@ -101,8 +101,6 @@ namespace Cribbage
                     }
                     
                 }
-
-                
                 connection.Close();
             }
             
@@ -129,8 +127,6 @@ namespace Cribbage
             }
             return Pack;
         }
-
-
 
         static void PlayTheGame(string[] Pack, int NoOfPlayers, string[,] PlayerNames, int Dealer)
         {
